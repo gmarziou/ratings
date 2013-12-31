@@ -1,4 +1,4 @@
-ratings
+Ratings
 =======
 
-Proto of an application to navigate PTT ratings using AngularJS
+Prototype of an application to navigate PTT ratings using AngularJS
