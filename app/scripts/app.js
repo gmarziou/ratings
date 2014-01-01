@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('ratingsApp', [
+angular.module('RatingsApp', [
   'ngCookies',
   'ngResource',
   'ngSanitize',
