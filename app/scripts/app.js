@@ -12,6 +12,16 @@ angular.module('RatingsApp', [
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
+     .when('/men/class/:klass', {
+        templateUrl: 'views/classRatings.html',
+        controller: 'ClassRatingsCtrl',
+        gender: 'M'
+      })
+     .when('/women/class/:klass', {
+        templateUrl: 'views/classRatings.html',
+        controller: 'ClassRatingsCtrl',
+        gender: 'F'
+      })
       .otherwise({
         redirectTo: '/'
       });

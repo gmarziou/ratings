@@ -77,3 +77,80 @@ body {
     border-bottom: 0;
   }
 }
+
+div.logo 
+{
+    margin-right: 4px;   
+    margin-bottom: 4px;
+    float:left;
+    width:18%
+}
+div.banner_title 
+{
+    float:left;
+    width:60%;
+    vertical-align: top;
+} 
+div.tournament_logo 
+{
+    margin-right: 4px;   
+    margin-top: 16px;
+    float:right;
+    width:18%;
+    text-align: right;
+}
+div.main
+{
+    background-color: #f0f0f0;
+    text-align: left;
+    clear: both;
+}
+div.rating-player
+{
+    text-align: left;
+  font-size: larger;
+  font-style: bolder;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.lose {
+  color: red;
+}
+.win {
+  color: green;
+}
+table.lists
+{
+    border: solid #000000;
+    background-color: #ffffff;
+    border-collapse: collapse;
+}
+table.rating-movements
+{
+    border: solid #000000;
+    background-color: #ffffff;
+    border-collapse: collapse;
+}
+th
+{
+    text-align: center;
+    font-weight: bold;
+    padding: 2px;
+    border: solid #000000;
+    border-top-width: 0px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    background-color: #FFFFCC;
+}
+td
+{
+    border: solid #000000;
+    border-top-width: 0px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    padding: 2px;
+    text-align: center;
+  white-space: nowrap;
+}

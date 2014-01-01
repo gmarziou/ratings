@@ -1,22 +1,20 @@
 'use strict';
 
-describe('Controller: MainCtrl', function () {
+describe('Controller: ClassRatingsCtrl', function () {
 
   // load the controller's module
   beforeEach(module('RatingsApp'));
 
-  var MainCtrl,
+  var ClassRatingsCtrl,
     scope;
 
   // Initialize the controller and a mock scope
   beforeEach(inject(function ($controller, $rootScope) {
     scope = $rootScope.$new();
-    MainCtrl = $controller('MainCtrl', {
-      $scope: scope
+    ClassRatingsCtrl = $controller('ClassRatingsCtrl', {
+      $scope: scope,
+      $routeParams: {class: 1}
     });
   }));
 
-  it('should attach a list of awesomeThings to the scope', function () {
-    expect(scope.awesomeThings.length).toBe(3);
-  });
 });
