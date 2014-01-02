@@ -22,6 +22,10 @@ angular.module('RatingsApp', [
         controller: 'ClassRatingsCtrl',
         gender: 'F'
       })
+      .when('/tournament/:tournament_id', {
+        templateUrl: 'views/tournament.html',
+        controller: 'TournamentCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
