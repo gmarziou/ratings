@@ -13,8 +13,14 @@ describe('Controller: ClassRatingsCtrl', function () {
     scope = $rootScope.$new();
     ClassRatingsCtrl = $controller('ClassRatingsCtrl', {
       $scope: scope,
-      $routeParams: {class: 1}
+      $route: {current: {gender: 'M'}},
+      $routeParams: {klass: 1}
     });
   }));
+
+  it('should set gender and klass to the scope', function () {
+    expect(scope.gender).toBe('M');
+    expect(scope.klass).toBe(1);
+  });
 
 });
