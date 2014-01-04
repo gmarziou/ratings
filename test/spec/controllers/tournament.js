@@ -3,7 +3,7 @@
 describe('Controller: TournamentCtrl', function () {
 
   // load the controller's module
-  beforeEach(module('ratingsApp'));
+  beforeEach(module('RatingsApp'));
 
   var TournamentCtrl,
     scope;

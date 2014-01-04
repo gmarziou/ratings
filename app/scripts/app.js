@@ -22,7 +22,7 @@ angular.module('RatingsApp', [
         controller: 'ClassRatingsCtrl',
         gender: 'F'
       })
-      .when('/tournament/:tournament_id', {
+      .when('/tournament/:tournamentId', {
         templateUrl: 'views/tournament.html',
         controller: 'TournamentCtrl'
       })
